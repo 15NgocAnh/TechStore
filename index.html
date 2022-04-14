@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Techstore</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <script src="https://kit.fontawesome.com/58d0ba52f1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
@@ -15,25 +16,25 @@
 <body>
     <section class="header">
         <div class="info">
-            <a class="logo">
+            <a data-aos="fade-left" data-aos-duration="2000" href="#" class="logo">
                 <img src="./images/logo.png" alt="logo">
             </a>
     
-            <div class="content">
+            <div data-aos="fade-right" data-aos-duration="2000" class="content">
                 <div class="contact-header">
                     <p>
                         <i class="fas fa-phone"></i>
                         1900.636.099
                     </p>
-                    <p>đăng ký</p>
-                    <p class="end">đăng nhập</p>
+                    <a href="#">đăng ký</a>
+                    <a href="#" class="end">đăng nhập</a>
                 </div>
 
                 <div class="space">
 
                 </div>
     
-                <div class="huyho">
+                <div class="transport">
                     <p>
                         Miễn phí vận chuyển 
                         <span>đơn hàng trên 900k</span>
@@ -43,7 +44,7 @@
         </div>
 
         <div class="nav">
-            <div class="nav-items">
+            <div data-aos="fade-right" data-aos-duration="2000" class="nav-items">
                 <a href="#home">trang chủ</a>
                 <a href="#product">sản phẩm</a>
                 <a href="#blog">blog</a>
@@ -51,12 +52,12 @@
                 <a href="#contact">liên hệ</a>
             </div>
 
-            <input type="text" placeholder="Tìm kiếm..." class="search">
+            <input data-aos="fade-left" data-aos-duration="2000" type="text" placeholder="Tìm kiếm..." class="search">
         </div>
     </section>
 
     <div class="home">
-        <div class="content">
+        <div data-aos="zoom-in" data-aos-duration="3000" class="content">
             <span>
                 Tháng vàng ưu đãi <h2>tiết kiệm đến 20%</h2>
             </span>
@@ -66,9 +67,9 @@
     </div>
 
     <section class="product">
-        <div class="heading">sản phẩm nổi bật</div>
+        <div data-aos="fade-up" data-aos-duration="3000" class="heading">sản phẩm nổi bật</div>
         <div class="list">
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Apple-Macbook-Air-MMGG2.png" alt="">
                 <div class="content">
                     <h3>apple macbook air MMGG2</h3>
@@ -76,7 +77,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Apple-Macbook-Air.png" alt="">
                 <div class="content">
                     <h3>apple macbook air</h3>
@@ -84,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Apple-Macbook-Pro.png" alt="">
                 <div class="content">
                     <h3>apple macbook air pro</h3>
@@ -92,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Apple-Macbook-Retina.png" alt="">
                 <div class="content">
                     <h3>apple macbook air retina</h3>
@@ -100,7 +101,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="600" class="item">
                 <img src="./images/Tivi_4K_SUHD_Samsung.png" alt="">
                 <div class="content">
                     <h3>tivi 4K SUHD samsung</h3>
@@ -108,7 +109,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="600" class="item">
                 <img src="./images/Tivi_LED_K4_Samsung.png" alt="">
                 <div class="content">
                     <h3>tivi LED K4 samsung</h3>
@@ -116,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="600" class="item">
                 <img src="./images/Tivi_LED_Samsung.png" alt="">
                 <div class="content">
                     <h3>tivi LED samsung</h3>
@@ -124,7 +125,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="600" class="item">
                 <img src="./images/Tivi_UHD_Samsung.png" alt="">
                 <div class="content">
                     <h3>tivi UHD samsung</h3>
@@ -133,25 +134,25 @@
             </div>
         </div>
 
-        <div class="more">
+        <div data-aos="zoom-in" class="more">
             <a href="#">xem thêm</a>
         </div>
     </section>
 
     <section class="blog">
-        <div class="blog-1">
+        <div data-aos="fade-right" data-aos-duration="1500" class="blog-1">
             <img src="./images/New_Products.png" alt="">
         </div>
 
-        <div class="blog-2">
+        <div data-aos="fade-left" data-aos-duration="1500" class="blog-2">
             <img src="./images/Hot_Product.png" alt="">
         </div>
     </section>
 
     <section class="introduce">
-        <div class="heading">sản phẩm mới</div>
+        <div  data-aos="fade-up" data-aos-duration="3000"  class="heading">sản phẩm mới</div>
         <div class="list">
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Iphone_6S.png" alt="">
                 <div class="content">
                     <h3>apple iphone 6S</h3>
@@ -159,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Iphone_6S_Plus.png" alt="">
                 <div class="content">
                     <h3>apple iphone 6S plus</h3>
@@ -167,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Iphone_7_32G.png" alt="">
                 <div class="content">
                     <h3>apple iphone 7 32GB</h3>
@@ -175,7 +176,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Iphone_SE.png" alt="">
                 <div class="content">
                     <h3>apple iphone SE</h3>
@@ -183,7 +184,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Mouse_Logitech_M238.png" alt="">
                 <div class="content">
                     <h3>chuột không dây kết nối USB logitech</h3>
@@ -191,7 +192,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Mouse_USB_Logitech.png" alt="">
                 <div class="content">
                     <h3>chuột không dây kết nối USC Microsoft</h3>
@@ -199,7 +200,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/Mouse_Logitech_M238.png" alt="">
                 <div class="content">
                     <h3>chuột không dây logitech m328 party</h3>
@@ -207,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div data-aos="fade-up" data-aos-delay="300" class="item">
                 <img src="./images/SmartWatch_Smartband.png" alt="">
                 <div class="content">
                     <h3>đồng hồ thông minh smartband</h3>
@@ -216,7 +217,7 @@
             </div>
         </div>
 
-        <div class="more">
+        <div data-aos="zoom-in" class="more">
             <a href="#">xem thêm</a>
         </div>
     </section>
@@ -233,11 +234,11 @@
     
             <div class="content">
                 <h3>liên kết</h3>
-                <p>trang chủ</p>
-                <p>sản phẩm</p>
-                <p>blog</p>
-                <p>giới thiệu</p>
-                <p>liên hệ</p>
+                <p><a href="#">trang chủ</a></p>
+                <p><a href="#">sản phẩm</a></p>
+                <p><a href="#">blog</a></p>
+                <p><a href="#">giới thiệu</a></p>
+                <p><a href="#">liên hệ</a></p>
             </div>
     
             <div class="content">
@@ -247,5 +248,10 @@
             </div>
         </section>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
